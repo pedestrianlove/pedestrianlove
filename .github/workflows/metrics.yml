@@ -24,6 +24,7 @@ jobs:
 
           # Options
           user: ${{ github.repository_owner }}
+          filename: github-metrics.svg
           committer_branch: "metrics"
           template: classic
           base: header, activity, repositories, metadata
